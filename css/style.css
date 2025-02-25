@@ -199,3 +199,21 @@ footer{
     padding: 25px 0px;
     color: white;
 }
+
+.card:hover .front{
+    
+    display: none;
+}
+
+.card:hover .back{
+    opacity: 1;
+    display: block;
+}
+
+.front{
+    display: block;
+}
+
+.back{
+    display: none;
+}
