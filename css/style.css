@@ -58,6 +58,7 @@ main{
 
 .card{
     width: 100%;
+    position: relative;
 }
 
 .card img{
@@ -65,11 +66,39 @@ main{
 }
 
 .label{
+    padding: 0px 1px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    color: white;
+}
+
+.label-2{
+    padding: 0px 1px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: white;
+}
+
+.label-3{
     padding: 5px 10px;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    color: rgb(0, 0, 0);
+}
+
+.bg-white{
+    background-color:white;
 }
 
 .bg-green{
     background-color: green;
+}
+
+.bg-red{
+    background-color: red;
 }
 
 .relative{
