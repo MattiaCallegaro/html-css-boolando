@@ -110,3 +110,7 @@ main{
     size: ;
 }
 
+.inline-block{
+    display: inline-block;
+}
+
