@@ -5,18 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boolando</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
-        <div class="col-sinistra d-flex">
-            <p>Donna</p>
-            <p>Uomo</p>
-            <p>Bambini</p>
-        </div>
-        <div class="col-centrale">
-            <img class="logo-position" src="./img/boolean-logo.png" alt="boolean logo">
+        <div class="header-cont d-flex align-center">
+            <div class="col-side d-flex align-left">
+                <ul>
+                    <li><a href="">Donna</a></li>
+                    <li><a href="">Uomo</a></li>
+                    <li><a href="">Bambini</a></li>
+                </ul>
+            </div>
+            <div class="col-centrale d-flex align-center">
+                <a href="gg"><img class="logo" src="./img/boolean-logo.png" alt="boolean logo">
+                </a>
+            </div>
+            <div class="col-side d-flex align-right ">
+                <div>
+                <span><i class="fa-regular fa-user"></i></span>
+                <span><i class="fa-regular fa-heart"></i></span>
+                <span><i class="fa-solid fa-bag-shopping"></i></span>
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -34,11 +49,11 @@
                         &#9829
                     </div>
                 </div>
-                    <div class="content">
-                        <p>Levi's</p>
-                        <h5>RELAXED FIT TEE UNISEX</h5>
-                        <p> 14,99&euro; <s>29,99&euro;</s></p>
-                    </div> 
+                <div class="content">
+                    <p>Levi's</p>
+                    <h5>RELAXED FIT TEE UNISEX</h5>
+                    <p> 14,99&euro; <s>29,99&euro;</s></p>
+                </div>
             </div>
             <div class="col-33 ">
                 <div class="card">
@@ -54,7 +69,7 @@
                     <p>Guess</p>
                     <h5>ROSES TEE</h5>
                     <p> 20,99&euro; <s>29,99&euro;</s></p>
-                </div> 
+                </div>
             </div>
             <div class="col-33 ">
                 <div class="card">
@@ -70,7 +85,7 @@
                     <p>Come Zucchero Filato</p>
                     <h5>VOGLIA DI COLORI PASTELLO</h5>
                     <p> 129,99&euro; <s>184,99&euro;</s></p>
-                </div> 
+                </div>
             </div>
             <div class="col-33 ">
                 <div class="card">
@@ -89,7 +104,7 @@
                     <p>Levi's</p>
                     <h5>TEE UNISEX</h5>
                     <p> 14,99&euro; <s>29,99&euro;</s></p>
-                </div> 
+                </div>
             </div>
             <div class="col-33 ">
                 <div class="card">
@@ -102,7 +117,7 @@
                     <p>Maya Deluxe</p>
                     <h5>STRIPE BODICE</h5>
                     <p> 99,99&euro;</p>
-                </div> 
+                </div>
             </div>
             <div class="col-33 ">
                 <div class="card">
@@ -118,9 +133,21 @@
                     <p>Esprit</p>
                     <h5>MAGLIONE-BLACK</h5>
                     <p> 29,99&euro;</p>
-                </div> 
+                </div>
             </div>
     </main>
+
+    <footer>
+        <div class="header-cont d-flex align-between">
+            <div class="col-60 align-left d-flex"></div>
+            <h3>Boolando s.r.l</h3>
+            <ul>
+                <a href="gg"><li>Informazioni legali</li></a>
+                <a href="gg"><li>Informativa sulla privacy</li></a>
+                <a href="gg"><li>Diritto di recesso</li></a>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
