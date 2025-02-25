@@ -62,6 +62,9 @@ main{
 
 .align-between{
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .justify-center{
@@ -76,8 +79,35 @@ main{
     width: 20%;
 }
 
+.social{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.social-symbol{
+    margin: 0 10px;
+
+}
+
+h3{
+    width: 100%;
+    padding: 8px;
+}
+
+h4{
+    padding-right: 45px;
+}
+
 .col-60{
     width: 60%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-30{
+    width: 30%;
 }
 
 .col-33{
@@ -166,6 +196,6 @@ li{
 
 footer{
     background-color: #1b1a1a;
-    padding: 20px 0px;
+    padding: 25px 0px;
     color: white;
 }
