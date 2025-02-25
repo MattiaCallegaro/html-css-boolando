@@ -160,6 +160,15 @@ h4{
     color: rgb(0, 0, 0);
 }
 
+.label-4{
+    padding: 5px 10px;
+    position: relative;
+    top: 8px;
+    right: px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
 .bg-white{
     background-color:white;
 }
@@ -222,3 +231,4 @@ footer{
 .back{
     display: none;
 }
+
